@@ -1,0 +1,29 @@
+{
+  "servers": {
+    "burp": {
+      "command": "/usr/bin/java",
+      "args": [
+        "-jar",
+        "/home/user/burpsuite_day/mcp-proxy.jar",
+        "--sse-url",
+        "http://127.0.0.1:9876"
+      ]
+    },
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest",
+        "--proxy-server=http://127.0.0.1:8080"
+      ],
+      "type": "stdio"
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/home/user/burpsuite_day"
+      ]
+    }
+  }
+}
