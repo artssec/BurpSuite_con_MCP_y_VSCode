@@ -69,7 +69,7 @@ El archivo `mcp.json` es el corazón de la integración. Debes configurarlo en V
       "command": "/usr/bin/java",
       "args": [
         "-jar",
-        "/home/user/burpsuite_day/mcp-proxy.jar", // Ruta al MCP .jar de Burp Suite
+        "/home/user/burpsuite_day/mcp-proxy.jar", // Ruta al mcp-proxy.jar descargado.
         "--sse-url",
         "http://127.0.0.1:9876"
       ]
@@ -95,10 +95,10 @@ El archivo `mcp.json` es el corazón de la integración. Debes configurarlo en V
 ```
 ## 📚 Referencias y Recursos
 
-* **Repositorio MCP-Lab:** [artssec/BurpSuite_con_MCP_y_VSCode](https://github.com/artssec/BurpSuite_con_MCP_y_VSCode)
 * **MCP Burp Server:** [PortSwigger/mcp-server](https://github.com/PortSwigger/mcp-server)
 * **Sitio Oficial MCP:** [modelcontextprotocol.io](https://modelcontextprotocol.io/)
 * **Customizing VS Code con IA:** [Documentación oficial](https://code.visualstudio.com/docs/copilot/copilot-customization)
+* **Custom agents in VS Code:** [Documentación oficial](https://code.visualstudio.com/docs/copilot/customization/custom-agents)
 
 ---
 
