@@ -69,7 +69,7 @@ El archivo `mcp.json` es el corazón de la integración. Debes configurarlo en V
       "command": "/usr/bin/java",
       "args": [
         "-jar",
-        "/home/user/burpsuite_day/mcp-proxy.jar", // Ruta al mcp-proxy.jar descargado.
+        "/home/user/burpsuite_day/mcp-proxy.jar", // Ruta al archivo mcp-proxy.jar.
         "--sse-url",
         "http://127.0.0.1:9876"
       ]
