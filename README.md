@@ -32,7 +32,8 @@ Esta metodología fue presentada originalmente en el **Burp Suite Day**, evento 
 │   │   └── security-headers-audit
 │   │       └── SKILL.md
 │   └── copilot-instructions.md   # Instrucciones sobre cómo interactuar con los agentes y el entorno MCP
-├── mcp-proxy.jar                 # Proxy para la comunicación MCP
+├── .vscode/
+│   └── mcp-proxy.jar             # Proxy para la comunicación MCP
 ├── mcp.json                      # Configuración del servidor MCP
 ├── SCOPE.md                      # Definición del alcance del Pentest
 ├── PROGRESS.md                   # Bitácora de actividad y persistencia
