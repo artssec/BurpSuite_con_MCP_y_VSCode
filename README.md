@@ -46,7 +46,7 @@ Esta metodología fue presentada originalmente en el **Burp Suite Day**, evento 
 Para replicar este entorno de trabajo, necesitarás:
 
 * **VS Code:** Versión estable o Insiders (necesaria para las funciones más recientes de agentes).
-* **GitHub Copilot:** Suscripción activa y extensión de *Copilot Chat* instalada.
+* **GitHub Copilot:** Suscripción activa (tiene una capa gratuita) y extensión de *Copilot Chat* instalada (en caso de que no se haya instalado automáticamente).
 * **Burp Suite:** Versión Professional o Community.
 * **Java (JRE/JDK):** Necesario para ejecutar el servidor MCP de Burp Suite.
 * **Node.js / npm:** Requerido para correr servidores MCP adicionales (como el de FileSystem).
